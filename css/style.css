@@ -104,13 +104,13 @@ button {
 }
 
 :root {
-  --colorPrimary: #55e6a5;
+  --colorPrimary: #B0A695;
   --bgColor: #09101a;
   --bodyBg: #02050a;
-  --colorWhite: #ffffff;
+  --colorWhite: #776B5D;
   --colorBlack: #02050a;
   --ratingColor: #ffba08;
-  --bodyColor: #a2a2a2;
+  --bodyColor: #0a0101;
   --PrimaryFont: "Poppins", sans-serif;
   --secondaryFont: "Open Sans", sans-serif;
 }
@@ -685,7 +685,7 @@ button {
   z-index: 1;
 }
 
-.tf__banner_img .img::after {
+.tf__banner_img .img::backdrop {
   position: absolute;
   content: "";
   background: url(../images/shapes/banner_shape.png);
