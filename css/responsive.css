@@ -830,8 +830,8 @@
   }
 
   .main_menu .main_menu_bg::after {
-    width: 100%;
-    left: 0;
+    width: 0%;
+    left: 0%;
   }
 
   .main_menu .navbar-nav {
