@@ -390,9 +390,9 @@ button {
   -o-transform: rotate(180deg);
 }
 
-.main_menu .toggle_icon:hover{
+.main_menu .toggle_icon_hover 
   /* color: var(--colorWhite); */
-}
+
 
 .main_menu .droap_menu {
   position: absolute;
