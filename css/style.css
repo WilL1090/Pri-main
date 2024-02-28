@@ -38,11 +38,14 @@ li {
   color: var(--colorWhite);
 }
 
+
 a {
   display: inline-block;
   text-decoration: none;
   color: var(--colorWhite);
 }
+
+
 
 a:hover {
   text-decoration: none;
@@ -61,7 +64,7 @@ h6 {
 
 p,
 span {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.7;
   margin: 0;
@@ -80,6 +83,7 @@ img {
   width: 100% !important;
   height: 100% !important;
   object-fit: cover !important;
+  
 }
 
 input,
@@ -104,7 +108,7 @@ button {
 }
 
 :root {
-  --colorPrimary: #AC7D88;
+  --colorPrimary: #3a3434;
   --bgColor: #09101a;
   --bodyBg: #02050a;
   --colorWhite: #561C24;
@@ -254,6 +258,8 @@ button {
   color: var(--bodyColor);
   font-weight: 500;
   transition: all linear 0.3s;
+  max-width: none;
+  width: auto;
 }
 
 .tf__pagination nav ul li a:hover,
@@ -311,35 +317,33 @@ button {
   top: 0;
   left: 0;
   width: 100%;
-  height: 80px;
+  /* Reduzir a altura da barra de navegação */
+  height: 100px; /* Alterado de 80px para 60px para torná-lo menor */
   z-index: 999;
-}
-
-.main_menu .main_menu_bg {
-  position: relative;
-  z-index: 1;
 }
 
 .main_menu .main_menu_bg::after {
   position: absolute;
   content: "";
-  width: 97%;
-  height: 100%;
+  width: 100%;
+  /* Certifique-se de que a altura aqui corresponda à do .main_menu se quiser que seja uniforme */
+  height: 120%; /* Isso vai se ajustar automaticamente à altura do .main_menu_bg */
   background: #561C24;
   top: 0;
-  left: 20px;
+  left: 0;
   z-index: -1;
 }
 
 .main_menu .navbar-brand {
-  width: 180px;
-  height: 80px;
-  margin: 0;
-  padding: 0;
+  width: 300px; /* Largura da sua imagem/logo */
+  height: -40px; /* Alterado para auto para manter a proporção */
+  margin: 0; /* Centraliza o logo se houver espaço */
+  display: block; /* Garante que a imagem seja tratada como um bloco para aplicar margem automática */
+  padding: 0; /* Ajustado para 0; 100 não é um valor válido sem unidade */
 }
 
 .main_menu .navbar-nav .nav-item {
-  position: relative;
+  position:   relative;
 }
 
 .main_menu .navbar-nav .nav-item .nav-link {
@@ -458,7 +462,7 @@ button {
   background: #561C24;
   padding: 25px;
 }
-.offcanvas .offcanvas-header .offcanvas-logo {
+.offcanvas .offcanvas-header .offcanvas-l {
   width: 110px;
 }
 
@@ -630,6 +634,14 @@ button {
 }
 .tf__banner_text h1 span {
   color: var(--colorPrimary);
+}
+
+b{
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+
 }
 
 /* .tf__banner_text h3 {
@@ -1374,7 +1386,7 @@ main {
 
 .main_menu_2 .logo_2 {
   background: #151c25;
-  padding: 50px;
+  padding: 100px;
 }
 
 .main_menu_2 ul {

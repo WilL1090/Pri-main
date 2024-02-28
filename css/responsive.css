@@ -758,7 +758,7 @@
   .tf__single_service_2 a,
   .tf__single_service_2 a {
     padding: 16px 30px;
-  }
+  }@media (min-width: 576px) and (max-width: 767.99px) {
 
   .tf__single_service_2:hover a,
   .tf__single_service_2.active a {
@@ -809,7 +809,7 @@
     ==============================*/
 }
 
-@media (min-width: 576px) and (max-width: 767.99px) {
+
   /*==============================
      HOME PAGE START
     ==============================*/
