@@ -74,10 +74,25 @@ span {
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
-  font-family: var(--PrimaryFont);
-  background: var(--bodyBg);
-  color: var(--colorWhite);
+  background-image: url('../images/testimonial/Fundo.png'); /* Adiciona a imagem de fundo */
+  background-size: cover; /* Faz com que a imagem de fundo cubra todo o espaço disponível */
+  background-position: center; /* Centraliza a imagem de fundo */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
 }
+
+#service {
+  background-image: url('../images/testimonial/Fundo.png'); /* Substitua pelo caminho correto da sua imagem */
+  background-size: cover; /* Faz com que a imagem de fundo cubra todo o espaço disponível */
+  background-position: center; /* Centraliza a imagem de fundo */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+.background-div {
+  background-image: url('../images/testimonial/Fundo.png'); /* Substitua pelo caminho correto da sua imagem */
+  background-size: cover; /* Faz com que a imagem de fundo cubra todo o espaço disponível */
+  background-position: center; /* Centraliza a imagem de fundo */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+
 
 img {
   width: 100% !important;
