@@ -75,21 +75,21 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   background-image: url('../images/testimonial/Fundo.png'); /* Adiciona a imagem de fundo */
-  background-size: cover; /* Faz com que a imagem de fundo cubra todo o espaço disponível */
-  background-position: center; /* Centraliza a imagem de fundo */
-  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  background-size: auto; /* Faz com que a imagem de fundo cubra todo o espaço disponível */
+  background-position: top; /* Centraliza a imagem de fundo */
+  background-repeat: repeat; /* Evita que a imagem se repita */
 }
 
 #service {
   background-image: url('../images/testimonial/Fundo.png'); /* Substitua pelo caminho correto da sua imagem */
-  background-size: cover; /* Faz com que a imagem de fundo cubra todo o espaço disponível */
-  background-position: center; /* Centraliza a imagem de fundo */
+  background-size: auto; /* Faz com que a imagem de fundo cubra todo o espaço disponível */
+  background-position:top ; /* Centraliza a imagem de fundo */
   background-repeat: no-repeat; /* Evita que a imagem se repita */
 }
 .background-div {
   background-image: url('../images/testimonial/Fundo.png'); /* Substitua pelo caminho correto da sua imagem */
-  background-size: cover; /* Faz com que a imagem de fundo cubra todo o espaço disponível */
-  background-position: center; /* Centraliza a imagem de fundo */
+  background-size: auto; /* Faz com que a imagem de fundo cubra todo o espaço disponível */
+  background-position: top; /* Centraliza a imagem de fundo */
   background-repeat: no-repeat; /* Evita que a imagem se repita */
 }
 
@@ -115,7 +115,7 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-  color: #a6a6ac;
+  color: #a6a6acbb;
 }
 
 button {
@@ -124,7 +124,7 @@ button {
 
 :root {
   --colorPrimary: #3a3434;
-  --bgColor: #09101a;
+  --bgColor: #c7bfbd00;
   --bodyBg: #02050a;
   --colorWhite: #561C24;
   --colorBlack: #02050a;
@@ -422,7 +422,7 @@ button {
   max-height: 450px;
   overflow: hidden;
   overflow-y: auto;
-  box-shadow: rgb(0 0 0 / 15%) 0px 4px 14px;
+  box-shadow: rgba(0, 0, 0, 0.384) 0px 4px 14px;
   padding-left: 0;
   opacity: 0;
   z-index: 99;
@@ -446,7 +446,7 @@ button {
   font-size: 15px;
   font-weight: 400;
   display: block;
-  border-bottom: 1px solid #2c73651a;
+  border-bottom: 1px solid #C7BFBD;
   padding: 7px 20px;
   transition: all linear 0.3s;
   -webkit-transition: all linear 0.3s;
@@ -973,7 +973,7 @@ b{
 }
 
 .tf__team_skills_bar_single {
-  background: #151c25;
+  background: #c7bfbd70;
   margin-bottom: 50px;
 }
 
