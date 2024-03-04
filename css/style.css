@@ -130,7 +130,7 @@ button {
   --colorBlack: #02050a;
   --ratingColor: #ffba08;
   --bodyColor: #0a0101;
-  --PrimaryFont: "Poppins", sans-serif;
+  --PrimaryFont: "open sans", sans-serif;
   --secondaryFont: "Open Sans", sans-serif;
 }
 
@@ -362,7 +362,7 @@ button {
 }
 
 .main_menu .navbar-nav .nav-item .nav-link {
-  color: var(--colorWhite);
+  color: #f3f3f3;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -372,6 +372,7 @@ button {
   font-family: var(--PrimaryFont);
   letter-spacing: 1px;
   padding: 32px 20px;
+  
 }
 
 .main_menu .navbar-nav .nav-item .nav-link i {
@@ -381,7 +382,7 @@ button {
 
 .main_menu .navbar-nav .nav-item .nav-link:hover,
 .main_menu .navbar-nav .nav-item .nav-link.active {
-  color: var(--colorPrimary);
+  color: #f1f1f1;
 }
 
 .main_menu .toggle_icon {
