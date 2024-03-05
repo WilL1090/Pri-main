@@ -351,7 +351,7 @@ button {
 
 .main_menu .navbar-brand {
   width: 300px; /* Largura da sua imagem/logo */
-  height: -40px; /* Alterado para auto para manter a proporção */
+  height: auto; /* Alterado para auto para manter a proporção */
   margin: 0; /* Centraliza o logo se houver espaço */
   display: block; /* Garante que a imagem seja tratada como um bloco para aplicar margem automática */
   padding: 0; /* Ajustado para 0; 100 não é um valor válido sem unidade */
@@ -743,10 +743,15 @@ b{
 
 /* service start */
 .tf__single_service {
-  padding: 0px 40px 40px 40px;
+  padding: 0px 40px 10px 40px !important;
   position: relative;
   border: 3px solid #191919;
   margin-top: 80px;
+}
+.tf__single_service p {
+  margin-top: 80px;
+  min-height: 300px; /* Exemplo de altura mínima */
+  min-width: 300px; /* Exemplo de largura mínima */
 }
 
 .tf__single_service span {
@@ -754,24 +759,29 @@ b{
   text-align: center;
   margin: 0 auto;
   position: relative;
-  top: -46px;
+  top: -100px;
   width: 100px;
 }
 
-.tf__single_service h3 {
+.tf__single_service h2 {
   font-size: 20px;
   font-weight: 500;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  position: relative;
+  top: -50px;
+ 
 }
 
 .tf__single_service p {
   text-align: center;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 500;
   line-height: 28px;
+  position: relative;
+  top: -90px;
 }
 
 /* service end */
