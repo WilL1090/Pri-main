@@ -621,7 +621,7 @@ button {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   height: 100vh;
-  padding-top: 80px;
+  padding-top: 200px;
 }
 
 .tf__banner div {
@@ -632,7 +632,7 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
 }
 
 .tf__banner_text h1 {
@@ -671,7 +671,7 @@ b{
 
 .tf__banner_text p {
   font-weight: 500;
-  margin-bottom: 65px;
+  margin-bottom: 30px;
 }
 
 .tf__banner_text ul {
