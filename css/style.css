@@ -57,26 +57,27 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+  margin: -10;
   padding: 0;
   color: var(--colorWhite);
 }
 
 p,
 span {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.7;
   margin: 0;
-  color: var(--bodyColor);
+  color: var(--bodyBg);
 }
+
 
 body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   background-image: url('../images/testimonial/Fundo.png'); /* Adiciona a imagem de fundo */
-  background-size: auto; /* Faz com que a imagem de fundo cubra todo o espaço disponível */
-  background-position: top; /* Centraliza a imagem de fundo */
+  background-size: contain; /* Faz com que a imagem de fundo cubra todo o espaço disponível */
+  background-position: center; /* Centraliza a imagem de fundo */
   background-repeat: repeat; /* Evita que a imagem se repita */
 }
 
@@ -96,7 +97,7 @@ body {
 
 img {
   width: 100% !important;
-  height: 100% !important;
+  height: 80% !important;
   object-fit: cover !important;
   
 }
@@ -129,7 +130,7 @@ button {
   --colorWhite: #561C24;
   --colorBlack: #02050a;
   --ratingColor: #ffba08;
-  --bodyColor: #0a0101;
+  --bodyColor: #8C7C6D;
   --PrimaryFont: "open sans", sans-serif;
   --secondaryFont: "Open Sans", sans-serif;
 }
@@ -670,8 +671,11 @@ b{
 } */
 
 .tf__banner_text p {
-  font-weight: 500;
-  margin-bottom: 30px;
+  font-weight: inherit;
+  margin-bottom: 380px;
+  font-size: 5.0 em; /* Ajuste o valor conforme necessário */
+  
+  
 }
 
 .tf__banner_text ul {
@@ -872,7 +876,7 @@ b{
 }
 
 .tf__design_text h2 {
-  font-size: 128px;
+  font-size: 80px;
   font-weight: 600;
   line-height: 60px;
 }
@@ -891,8 +895,8 @@ b{
 
 .tf__design_counter {
   background: var(--bgColor);
-  margin-top: 25px;
-  text-align: center;
+  margin-top: 380px;
+  text-align: autor;
   padding: 40px;
 }
 
