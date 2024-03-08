@@ -19,7 +19,7 @@
 .progress.active {
   opacity: 1;
   visibility: visible;
-  transform: translateY(0);
+  transform: translateY(10);
 }
 .progress::after {
   position: absolute;
@@ -50,7 +50,6 @@
   fill: none;
 }
 .progress svg.progress-svg path {
-  stroke: var(--bodyColor);
   stroke-width: 4;
   box-sizing: border-box;
   transition: all 200ms linear;

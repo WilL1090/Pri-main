@@ -70,7 +70,11 @@ span {
   margin: 0;
   color: var(--bodyBg);
 }
-
+h7{
+  color: var(--colorWhite);
+  font-size: 20px;
+  
+}
 
 body {
   overflow-x: hidden;
@@ -654,11 +658,10 @@ button {
 }
 
 b{
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: none;
   line-height: 1.2;
-
 }
 
 /* .tf__banner_text h3 {
@@ -2906,6 +2909,7 @@ h5.preloader-text::after {
   display: block;
   font-size: 14px;
 }
+
 /*==============================
   POPUP END
 ===============================*/
